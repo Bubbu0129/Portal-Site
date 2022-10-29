@@ -1,0 +1,81 @@
+@import "STKAITI.css";
+
+html {
+  font-size: 1.4em;
+  font-family: "STKAITI";
+  line-height: 1.15;
+  letter-spacing: 1px;
+  background-color: #2A0A4A;
+  padding: 20px 20px 20px 20px;
+}
+
+body {
+  width: 80%;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  border: 12px solid #1234CD;
+  background-color: #CCCCCC;
+}
+  
+h1 {
+  font-size: 2.4em;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #3478EF;
+  text-shadow: 3px 2px 1px #1256AB;
+}
+  
+h2 {
+  font-weight: bold;
+  font-size: 1.6em;
+  text-align: center; 
+  color:#888888;
+}
+
+address {
+  text-align: right;
+  font-style: italic;
+  color: #888888;
+  font-size: 0.8em;
+  line-height: 1.2;
+}
+
+span {
+  color:red;
+}
+
+.note{
+  text-align: center;
+  color: #666666;
+  font-size: 0.8em;
+}
+
+.slogan{
+  color: #1234CD;
+}
+
+/* Bing Search */
+.login-button {
+  width: 100px;
+  height: 45px;
+  border-width: 0px;
+  border-radius: 3px;
+  background: #001188;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+  
+.login-button:hover {
+  background: #1234AB;
+}
+  
+.text-frame{
+  font-size: 16px;
+  width: 400px; 
+  height: 40px;
+}
