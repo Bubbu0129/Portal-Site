@@ -1,5 +1,5 @@
 function stat(doc, cls, path, auth) {
-    let len = services_class.length;
+    let len = cls.length;
     let indicator;
     var request;
 
@@ -25,7 +25,7 @@ function stat(doc, cls, path, auth) {
         if (request.status == 200) {
 	    // Change to color and set href of the url
             indicator.style.color = "lime";
-            link.href = services_path[i];
+            link.href = path[i];
             link.target = "_blank";
         }
     }
